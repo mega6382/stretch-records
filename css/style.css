@@ -76,6 +76,14 @@ section h2 {
     align-items: center;
     padding: 0.75rem 0;
     border-bottom: 1px solid #eee;
+    gap: 1rem;
+}
+
+.song-cover {
+    width: 60px;
+    height: 60px;
+    object-fit: cover;
+    border-radius: 4px;
 }
 
 .song-list li:last-child {
